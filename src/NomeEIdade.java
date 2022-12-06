@@ -10,18 +10,16 @@ public class NomeEIdade {
         while(true) {
             System.out.println("Digite seu nome completo: ");
             nome = scan.nextLine();
+                if (nome.equals("0")) break;
+                else {
             System.out.println("Nome: " + nome);
-            if (nome.equals("0")) break;
-
             System.out.println("Digite sua idade: ");
             idade = scan.nextInt();
-            System.out.println("Idade: " + idade);
+            System.out.println("Idade: " + idade);}}
 
-
-        }
         scan.close();
-        
+        }
     }
 
-}
+
 
