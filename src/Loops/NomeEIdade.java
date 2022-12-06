@@ -10,7 +10,7 @@ public class NomeEIdade {
 
         while(true) {
             System.out.println("Digite seu nome completo: ");
-            nome = scan.nextLine();
+            nome = scan.next();
                 if (nome.equals("0")) break;
                 else {
             System.out.println("Nome: " + nome);
